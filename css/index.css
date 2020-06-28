@@ -1,0 +1,17 @@
+body{
+    margin: 8vh 20vh;
+}
+
+.addTicketBtn{
+    width: 32px;
+    height: 32px;
+    font-size: 1.5rem;
+    content: url(../libs/bootstrap-icons-1.0.0-alpha5/plus-square.svg);
+    transition: width 0.25s;
+}
+.addTicketBtn:hover{
+    width: 34px;
+    height: 34px;
+    content: url(../libs/bootstrap-icons-1.0.0-alpha5/plus-square-fill.svg);
+    transition: width 0.2s;
+}
