@@ -9,4 +9,4 @@ newTimerComponent.html =
           Show Data
         </button>
       </div>
-    </div>`
+    </div>`;

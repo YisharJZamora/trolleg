@@ -18,8 +18,7 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
-    <script lang="javascript" src="../js/components/baseComponent.js"></script>
-    <script lang="javascript" src="../js/components/newTimerComponent.js"></script>
+    <script lang="javascript" src="../libs/mushuSax/componentsModule.min.js"></script>
     <script lang="javascript" src="../js/models/ProjectModel.js"></script>
     <script lang="javascript" src="../js/models/ClientModel.js"></script>
     <script lang="javascript" src="../js/models/TagModel.js"></script>
@@ -39,6 +38,7 @@
   <body>
     <div class="container">
       <div inject-html-component="newTimerComponent"></div>
+      <div inject-html-component="newTimerComponent"></div>
 
       <div id="new-timer-container" class="row mt-2 mb-2 ml-3 mr-3">
         <div class="col-6">
@@ -53,7 +53,6 @@
       </div>
     </div>
 
-    <script lang="javascript" src="../libs/mushuSax/InjectJsComponents.min.js"></script>
     <script lang="javascript" src="../js/main.js"></script>
   </body>
 </html>

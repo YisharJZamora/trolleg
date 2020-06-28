@@ -1,3 +1,3 @@
 const baseComponent = {
-    html: ''
-  };
+  html: ''
+}
